@@ -37,4 +37,4 @@ def CollegePlace():
     else:
         return 'Something Wrong'    
 
-app.run(port=5050)
+app.run(host = "0.0.0.0",port = 5055,debug = False)
