@@ -14,10 +14,10 @@ class CollegePlacement():
         self.Stream = Stream
 
     def load_file(self):
-        with open("project_app\CollegePlace.pkl", "rb") as f:
+        with open("project_app/CollegePlace.pkl", "rb") as f:
             self.model = pickle.load(f)
 
-        with open("project_app\JsonFile.json", "r") as f:
+        with open("project_app/JsonFile.json", "r") as f:
             self.file_json = json.load(f)
 
         
